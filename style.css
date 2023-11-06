@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400&display=swap");
+
+body{
+  background-color: white;
+}
+
+.titulo,
+#subtitulo {
+  font-family: "Cormorant Garamond", serif;
+  width: 100%;
+  color: beige;
+}
+
+#texto-img{
+  background-color: rgba(152, 195, 189, 0.25);
+}
+
+#principal, #secundario{
+  width: 100%;
+  /* border: 1px red solid; */
+}
+
+.titulo-carta{
+  font-family: "Cormorant Garamond", serif;
+  width: 100%;
+  color: black;
+  margin-top: 50px;
+  margin-left: 20px;
+}
+
+.cuerpo-carta{
+  margin-left: 20px;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 20px;
+}
+
+#secundario img{
+  width: 100%;
+  margin-top: 20px;
+}
+
+.collage img{
+  width: 400px;
+  margin-top: 20px;
+}
+
+.parrafo{
+  margin-top: 20px;
+}
+
+.aniv{
+  display: flex;
+  justify-content: center;
+}
+
+#aniversario{
+  font-family: "Cormorant Garamond", serif;
+  width: 100%;
+  color: #b69f8e;
+  font-weight: bold;
+  font-size: 50px;
+  margin-left: 70px;
+}
+
+.collageXL img{
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  #texto-img {
+    width: 250px;
+  }
+  .titulo, #subtitulo{
+    font-size: large;
+  }
+  .center-on-small-screen {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .titulo-carta{
+    font-size: 25px;
+  }
+
+  .cuerpo-carta{
+    font-size: 13px;
+  }
+
+  #primer-imagen{
+    margin-top: 30%;
+  }
+
+  #secundario img{
+    width: 100%;
+    margin-left: 10px;
+  }
+
+  .parrafo{
+    margin-left: 10px;
+  }
+
+  .collage img{
+    width: 120px;
+    margin-top: 20px;
+  }
+
+  #aniversario{
+    font-family: "Cormorant Garamond", serif;
+    color: #b69f8e;
+    font-weight: bold;
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 860px) {
+  .collage img{
+    width: 200px;
+    height: auto;
+    margin-top: 20px;
+  }
+}
+
+
+
+
